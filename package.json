@@ -1,0 +1,24 @@
+{
+  "name": "Mock-Landing-Page-Prueba",
+  "version": "1.0.0",
+  "description": "Prueba técnica que consiste en la maquetación y mock de una landing page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictoriaTejeda/Mock-Landing-Page-Prueba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictoriaTejeda/Mock-Landing-Page-Prueba/issues"
+  },
+  "homepage": "https://github.com/VictoriaTejeda/Mock-Landing-Page-Prueba#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
