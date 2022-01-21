@@ -1,0 +1,125 @@
+:root{
+    --primary:#a869d1;
+    --secundary:#65c8db;
+    --dark:#21252f;
+    --body:#686868;
+}
+
+body{
+    line-height: 1.7;
+    color:var(--body);
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:var(--dark);
+}
+
+.btn-outline-primary{
+    border-radius: 5vh;
+    border-color: var(--secundary);
+    color:var(--secundary);
+}
+
+#logo{
+    color:var(--dark);
+    font-size: 5vh;
+}
+#home{
+    color:var(--secundary);
+}
+
+.btn-outline-primary:hover{
+    background-color:#bf91dfde;
+    color:#ffff;
+}
+
+.btn-outline-secondary{
+    border-radius: 5vh;
+    border-color: var(--secundary);
+    color:var(--secundary);
+}
+
+.container{
+    margin-left: 3rem;
+}
+
+.title{
+    margin-top: 15vh;
+}
+.text, .faster{
+    color:var(--primary);
+    font-weight: 700;
+}
+
+.btn-primary{
+    background-color: var(--secundary);
+    border-color:var(--secundary);
+    margin-top: 5vh;
+    margin-right: 3vh;
+    border-radius: 3.5vh;
+    width:30vh;
+    height: 7vh;
+}
+
+.bi-play-circle{
+    color:var(--dark);
+    padding-left: 3vh;
+    font-size: 3vh;
+}
+.btn-secondary{
+    background-color: var(--primary);
+    border-color:var(--primary);
+    margin-top: 5vh;
+    margin-right: 3vh;
+    border-radius: 3.5vh;
+    width:25vh;
+    height: 7vh;
+}
+
+
+.card{
+    margin-top: 15vh;
+    height:35rem;
+    margin-left: 2rem;
+}
+.form-label{
+    float: right;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+
+.card p{
+    border-top:solid 0.3px var(--body);
+    text-align: center;
+    font-weight: 500;
+}
+
+.conteiner-btn{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    border-bottom:solid 0.3px var(--body);
+}
+
+.btn-outline-info{
+    width: 8vh;
+    height: 8vh;
+    border-radius:6vh;
+    border-color: var(--primary);
+    margin: 2vh;
+    color:var(--dark);
+    font-weight: 600;
+}
+
+.btn-outline-info:hover{
+    background-color: var(--primary);
+    color: whitesmoke;
+}
+
+.form-control{
+    width: 50%;
+    margin: 0.2vh;
+}
