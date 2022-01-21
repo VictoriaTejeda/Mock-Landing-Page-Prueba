@@ -79,7 +79,7 @@ h1,h2,h3,h4,h5,h6{
 
 .card{
     margin-top: 15vh;
-    height:35rem;
+    height:41rem;
     margin-left: 2rem;
 }
 .form-label{
@@ -102,6 +102,7 @@ h1,h2,h3,h4,h5,h6{
     align-items: center;
     height: 12vh;
     border-bottom:solid 0.3px var(--body);
+    margin-bottom: 2vh;
 }
 
 .btn-outline-info{
@@ -119,7 +120,84 @@ h1,h2,h3,h4,h5,h6{
     color: whitesmoke;
 }
 
-.form-control{
-    width: 50%;
-    margin: 0.2vh;
+
+.row{
+    justify-content: center;
 }
+
+.form-control{
+    width: 22vh;
+    height: 1.5rem;
+    border-radius: 3vh;
+    border-color: var(--primary);
+    align-self: center;
+    text-align: center;
+}
+
+.col-form-label{
+    font-size: 2.1vh;
+    width: 25vh;
+    text-align: end;
+    font-weight: 600;
+}
+.btn-card{
+    margin-top: 2vh;
+}
+.container-btn-send{
+    display: flex;
+    justify-content: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.feacture{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    
+}
+.card-header{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+
+.btn-outline-success {
+    border-color:transparent;
+    color: var(--dark) !important;
+}
+.btn-outline-success:hover{
+    border-bottom: solid 2px var(--primary) !important;
+    background-color: transparent;
+    border-color:transparent;
+    color: var(--primary);
+}
+.card-footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-promo{
+    height: 60vh !important;
+}
+
+.container-card-promo{
+    text-align: center;
+    margin-top: 8vh;
+    margin-bottom: 6vh;
+}
+
+.container-code{  
+    margin-top: 8vh;
+    margin-bottom: 6vh;
+}
+ .title-code{
+     text-align: center;
+ }
